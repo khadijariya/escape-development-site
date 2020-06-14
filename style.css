@@ -1,9 +1,69 @@
 body {
     margin: 0;
     padding: 0;
-   
 }
-
+* {
+    font-family: 'Lato', sans-serif;
+}
 html {
     scroll-behavior: smooth;
 }
+/*header part design start*/
+#header-area {
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 0 85px 0;
+    height: 110vh;
+    position: relative;
+}
+#header-area:after {
+    position: absolute;
+    content: '';
+    clear: both;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(52, 40, 66, 0.5);
+}
+.custom-nav {
+    z-index: 90;
+    position: relative;
+}
+.custom-menu ul li a {
+    color: #ffffff !important;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 18px !important;
+}
+.header-content {
+    color: #ffffff;
+    padding-top: 145px;
+    position: relative;
+    z-index: 90;
+}
+.header-content h3 {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.header-content h2 {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 65px;
+}
+.btn-custom {
+    border: 3px solid #ffffff;
+    font-size: 23px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 12px 60px;
+}
+.btn-custom:hover {
+    color: #ffffff;
+}
+/*header part design end*/
