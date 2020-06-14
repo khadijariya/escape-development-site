@@ -156,3 +156,95 @@ html {
     padding-bottom: 40px;
 }
 /*service part design end*/
+/*client part design start*/
+#client-part {
+    padding: 80px 0;
+    background: #fafafa;
+}
+.client-title h2 {
+    font-size: 60px;
+    color: #222222;
+}
+.client-title p {
+    font-size: 22px;
+    color: #777777;
+}
+.client-title {
+    padding-left: 120px;
+}
+.client-image img,
+.client-image-lower img {
+    width: 245px;
+    height: 245px;
+    border-radius: 50%;
+    border: 3px solid #ededed;
+}
+.client-image {
+    padding-left: 85px;
+    margin-top: -17px;
+}
+.client-comment p,
+.client-comment-lower p {
+    font-size: 25px;
+    color: #777777;
+    padding: 0px 8%;
+}
+.client-comment > .client-identity {
+    color: #7690c5;
+    font-size: 19px;
+}
+.client-comment,
+.client-comment-lower {
+    background: #ffffff;
+    padding: 28px 0;
+    border: 0.5px solid #ededed;
+}
+.client-comment:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 30px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    left: -14px;
+    top: 36%;
+}
+.upper-cmnt-wrap {
+    padding: 70px 0 0 0;
+}
+.client-comment-lower:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 30px solid #fff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    right: -14px;
+    bottom: 49%;
+}
+.client-comment-lower > .client-identity {
+    color: #7690c5;
+    font-size: 19px;
+}
+.client-image-lower {
+    padding-left: 25px;
+    margin-top: -30px;
+}
+.lower-cmnt-wrap {
+    padding: 45px 0 0 0;
+}
+/*client part design end*/
+/*sponsor part design start */
+.sponsor-part {
+    padding: 60px 210px;
+    cursor: pointer;
+}
+.sponsor-enva img {
+    padding-left: 33px;
+}
+.sponsor-micro img {
+    margin-left: -50px;
+}
+/*sponsor part design end */
