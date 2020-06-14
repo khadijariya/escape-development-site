@@ -1,21 +1,704 @@
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        width: 50%;
+        margin: 0 auto;
+        background: #483A59;
+    }
+
+    .navbar-light .navbar-toggler {
+        font-size: 20px;
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        width: 45px;
+        height: 45px;
+        background-size: 83% 62%;
+        background-color: #ddd;
+        border-radius: 50%;
+    }
+
+    #header-area {
+        padding: 3px 0 6px 0;
+        height: 76vh;
+    }
+
+    .header-content h2 {
+        font-size: 32px;
+        padding-bottom: 40px;
+    }
+
+    .header-content h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .header-content {
+        padding-top: 40px;
+    }
+
+    .btn-custom {
+        width: 100%;
+    }
+
+    .development {
+        padding-top: 40px;
+    }
+
+    .develop-content h2 {
+        font-size: 32px;
+        margin-right: 0;
+    }
+
+    .develop-content p {
+        font-size: 16px;
+        text-align: justify;
+        width: 110%;
+    }
+
+    .develop-image {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .develop-image img,
+    .branding-image img {
+        width: 65%;
+    }
+
+    .dev-description {
+        padding: 0px 40px 0px 20px;
+    }
+
+    #branding {
+        padding: 30px 0 15px 0;
+    }
+
+    .branding-content h2 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .branding-content p {
+        font-size: 16px;
+        text-align: justify;
+        width: 110%;
+    }
+
+    .brand-description {
+        padding: 0px 60px 0px 25px;
+    }
+
+    .branding-image {
+        padding: 0px 0 0 20px;
+        margin-right: 0;
+    }
+
+    .branding-content h2 {
+        padding-top: 40px;
+    }
+
+    .service-part {
+        padding: 35px 20px 15px 50px;
+        text-align: center;
+    }
+
+    .icon-img {
+        margin: 0 auto;
+    }
+
+    .icon-text p {
+        width: 95%;
+        padding-top: 8px;
+        font-size: 15px;
+    }
+
+    .icon-text h4 {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .single-service {
+        padding-bottom: 15px;
+    }
+
+    #client-part {
+        padding: 25px 0px 35px 0;
+        text-align: center;
+    }
+
+    .client-title h2 {
+        font-size: 28px;
+    }
+
+    .client-title p {
+        font-size: 16px;
+    }
+
+    .client-title {
+        padding-left: 15px;
+    }
+
+    .upper-cmnt-wrap {
+        padding: 35px 0 0 0;
+    }
+
+    .client-comment p,
+    .client-comment-lower p {
+        font-size: 17px;
+    }
+
+    .client-comment-lower>.client-identity,
+    .client-comment>.client-identity {
+        font-size: 16px;
+    }
+
+    .client-image img {
+        margin-bottom: 25px;
+    }
+
+    .client-image {
+        padding-left: 20px;
+        margin-top: -14px;
+    }
+
+    .client-image-lower img {
+        margin-top: 55px;
+    }
+
+    .sponsor-part {
+        padding: 40px 10px 40px 6px;
+    }
+
+    .sponsor-micro img {
+        margin: 0;
+        padding-top: 16px;
+    }
+
+    .single-sponsor img {
+        padding: 15px 0 0 45px;
+    }
+
+    .team-member-detail img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .team-member-detail p {
+        font-size: 12px;
+    }
+
+    .team-title h2 {
+        font-size: 28px;
+    }
+
+    .team-title p {
+        font-size: 14px;
+    }
+
+    .team-part {
+        padding: 40px 50px 25px 50px;
+    }
+
+    .team-detail-wrap {
+        padding: 40px;
+    }
+
+    .team-detail-footer p {
+        font-size: 14px;
+    }
+
+    .team-detail-footer {
+        padding: 0;
+    }
+
+    .support-left-title {
+        text-align: center;
+    }
+
+    .support-part-left {
+        padding: 0 0 5px 0px;
+    }
+
+    .support-part-left ul li a {
+        font-size: 16px;
+    }
+
+    .social-media-icon i {
+        width: 28px;
+        height: 28px;
+        line-height: 27px;
+        font-size: 16px;
+    }
+
+    .support-part h2 {
+        font-size: 37px;
+        padding: 0 60px 12px 0px;
+    }
+
+    .support-part p {
+        width: 70%;
+        font-size: 13px;
+        padding: 0 0px 15px 48px;
+    }
+
+    .support-part-left i {
+        font-size: 22px;
+        padding: 0 25px 18px 28px;
+    }
+
+    .support-part-left ul li a {
+        font-size: 14px;
+    }
+
+    .pt-4,
+    .py-4 {
+        padding-top: 0 !important;
+    }
+
+    .support-form {
+        text-align: center;
+    }
+
+    .custom-btn {
+        padding: 12px 25px;
+        width: 100%;
+    }
+
+    .support-part {
+        padding: 25px 0 50px 40px;
+    }
+
+    .footer-part p {
+        font-size: 12px;
+    }
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-   
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        width: 50%;
+        margin: 0 auto;
+        background: #483A59;
+    }
+
+    .navbar-light .navbar-toggler {
+        font-size: 20px;
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        width: 45px;
+        height: 45px;
+        background-size: 83% 62%;
+        background-color: #ddd;
+        border-radius: 50%;
+    }
+
+    #header-area {
+        padding: 10px 0 30px 0;
+        height: 75vh;
+    }
+
+    .header-content h2 {
+        font-size: 42px;
+        padding-bottom: 43px;
+    }
+
+    .header-content h3 {
+        font-size: 22px;
+    }
+
+    .header-content {
+        padding-top: 55px;
+    }
+
+    .development {
+        padding-top: 40px;
+    }
+
+    .develop-content h2 {
+        font-size: 53px;
+        margin-right: 0;
+    }
+
+    .develop-content p {
+        font-size: 17px;
+        text-align: justify;
+        width: 110%;
+    }
+
+    .develop-image {
+        padding: 5px 0px 10px 0px;
+    }
+
+    .dev-description {
+        padding: 20px 60px 0px 25px;
+    }
+
+    #branding {
+        padding: 50px 0 30px 0;
+    }
+
+    .branding-content h2 {
+        font-size: 53px;
+        margin: 0;
+    }
+
+    .branding-content p {
+        font-size: 17px;
+        text-align: justify;
+        width: 110%;
+    }
+
+    .brand-description {
+        padding: 0px 60px 0px 25px;
+    }
+
+    .branding-image {
+        padding: 0px 0 0 20px;
+        margin-right: 0;
+    }
+
+    .branding-content h2 {
+        padding-top: 40px;
+    }
+
+    .service-part {
+        padding: 35px 20px 15px 50px;
+        text-align: center;
+    }
+
+    .icon-img {
+        margin: 0 auto;
+    }
+
+    .icon-text p {
+        width: 95%;
+        padding-top: 8px;
+    }
+
+    .icon-text h4 {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    .single-service {
+        padding-bottom: 20px;
+    }
+
+    #client-part {
+        padding: 40px 5px 50px 0;
+        text-align: center;
+    }
+
+    .client-title h2 {
+        font-size: 56px;
+    }
+
+    .client-title p {
+        font-size: 20px;
+    }
+
+    .client-title {
+        padding-left: 55px;
+    }
+
+    .upper-cmnt-wrap {
+        padding: 35px 0 0 0;
+    }
+
+    .client-comment p,
+    .client-comment-lower p {
+        font-size: 18px;
+    }
+
+    .client-comment-lower>.client-identity,
+    .client-comment>.client-identity {
+        font-size: 16px;
+    }
+
+    .client-image img {
+        margin-bottom: 25px;
+    }
+
+    .client-image {
+        padding-left: 20px;
+        margin-top: -14px;
+    }
+
+    .client-image-lower img {
+        margin-top: 55px;
+    }
+
+    .sponsor-part {
+        padding: 40px 0px;
+    }
+
+    .sponsor-micro img {
+        margin-left: -10px;
+    }
+
+    .team-title h2 {
+        font-size: 54px;
+    }
+
+    .team-title p {
+        font-size: 17px;
+    }
+
+    .team-part {
+        padding: 50px;
+    }
+
+    .team-detail-wrap {
+        padding: 40px;
+    }
+
+    .team-detail-footer p {
+        font-size: 17px;
+        padding: 0px 2%;
+        margin-top: -25px;
+    }
+
+    .support-left-title {
+        text-align: center;
+    }
+
+    .support-part-left {
+        padding: 0 0 30px 0px;
+    }
+
+    .support-part-left ul li a {
+        font-size: 16px;
+    }
+
+    .support-part h2 {
+        font-size: 58px;
+        padding: 0 60px 12px 0px;
+    }
+
+    .support-part p {
+        width: 84%;
+        font-size: 16px;
+    }
+
+    .support-form {
+        text-align: center;
+    }
+
+    .custom-btn {
+        padding: 12px 25px;
+        width: 100%;
+    }
+
+    .support-part {
+        padding: 60px 0 70px 60px;
+    }
 }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        width: 50%;
+        margin: 0 auto;
+        background: #483A59;
+    }
+
+    .navbar-light .navbar-toggler {
+        font-size: 20px;
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        width: 48px;
+        height: 48px;
+        background-size: 83% 62%;
+        background-color: #ddd;
+        border-radius: 50%;
+    }
+
+    #header-area {
+        padding: 25px 0 30px 0;
+        height: 95vh;
+    }
+
+    .header-content h2 {
+        font-size: 55px;
+        padding-bottom: 45px;
+    }
+
+    .header-content h3 {
+        font-size: 27px;
+    }
+
+    .header-content {
+        padding-top: 95px;
+    }
+
+    .development {
+        padding-top: 45px;
+    }
+
+    .develop-content h2 {
+        font-size: 58px;
+        margin-right: 0;
+    }
+
+    .develop-content p {
+        padding-bottom: 5px;
+    }
+
+    .develop-image {
+        padding: 5px 0px 10px 0px;
+    }
+
+    #branding {
+        padding: 25px 0 35px 0;
+    }
+
+    .branding-image {
+        padding: 25px 0 0 0px;
+        margin-right: -35px;
+    }
+
+    .branding-content h2 {
+        padding-top: 40px;
+        margin-right: 0;
+    }
+
+    .branding-content p {
+        margin: 0 auto;
+    }
+
+    .service-part {
+        padding: 55px 10px 15px 80px;
+    }
+
+    .icon-text {
+        padding-left: 40px;
+        width: 130%;
+    }
+
+    #client-part {
+        padding: 40px 0 50px 0;
+        text-align: center;
+    }
+
+    .client-title {
+        padding-left: 50px;
+    }
+
+    .upper-cmnt-wrap {
+        padding: 35px 0 0 0;
+    }
+
+    .client-image img {
+        margin-bottom: 25px;
+    }
+
+    .client-image-lower img {
+        width: 245px;
+        height: 245px;
+        border-radius: 50%;
+        border: 3px solid #ededed;
+        margin-top: 55px;
+    }
+
+    .sponsor-part {
+        padding: 40px 0px;
+    }
+
+    .sponsor-micro img {
+        margin-left: -20px;
+    }
+
+    .team-part {
+        padding: 50px;
+    }
+
+    .team-detail-wrap {
+        padding: 40px;
+    }
+
+    .team-detail-footer p {
+        font-size: 17px;
+        padding: 0px 2%;
+        margin-top: -25px;
+    }
+
+    .support-left-title {
+        text-align: center;
+    }
+
+    .support-part-left {
+        padding: 0 0 30px 50px;
+    }
+
+    .support-part h2 {
+        font-size: 58px;
+        padding: 0 60px 12px 0px;
+    }
+
+    .support-part p {
+        width: 80%;
+    }
+
+    .support-form {
+        text-align: center;
+    }
+
+    .custom-btn {
+        padding: 12px 25px;
+        width: 70%;
+    }
+
+    .support-part {
+        padding: 60px 0 70px 60px;
+    }
 }
 
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .icon-text {
+        padding-left: 22px;
+    }
 
+    .sponsor-part {
+        padding: 60px 130px;
+    }
+
+    .sponsor-micro img {
+        margin-left: -10px;
+    }
+
+    .team-member-detail img {
+        width: 225px;
+        height: 225px;
+    }
+
+    .team-detail-footer p {
+        padding: 0px 6%;
+        margin-top: -20px;
+    }
+
+    .support-part-left ul li a {
+        font-size: 17px;
+    }
+
+    .support-part p {
+        width: 94%;
+    }
+
+    .support-part {
+        padding: 50px 0 85px 75px;
+    }
 }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
